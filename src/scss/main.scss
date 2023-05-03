@@ -2,3 +2,21 @@
 @import "layout";
 @import "modules/example";
 @import "bootstrap/scss/bootstrap-grid";
+@font-face {
+  font-family: "Switzer-Regular";
+  src: url("../font/Switzer-Regular.woff2") format("woff2"),
+    url("../font/Switzer-Regular.woff") format("woff");
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Switzer-Light";
+  src: url("../font/Switzer-Light.woff2") format("woff2"),
+    url("../font/Switzer-Light.woff") format("woff");
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Switzer-Semibold";
+  src: url("../font/Switzer-Semibold.woff2") format("woff2"),
+    url("../font/Switzer-Semibold.woff") format("woff");
+  font-display: fallback;
+}
