@@ -1,0 +1,21 @@
+header {
+  background-image: url(../img/image-header.svg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  font-family: Switzer-Semibold;
+  font-size: 130px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 320px;
+}
+
+@media (min-width: 992px) {
+  .banner h1 {
+    font-size: 260px;
+    margin-top: 140px;
+  }
+}
