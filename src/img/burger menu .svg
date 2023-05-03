@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="13px" viewBox="0 0 20 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>burger menu copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Mobile" transform="translate(-15.000000, -294.000000)" stroke="#000000">
+            <g id="burger-menu-copy" transform="translate(16.000000, 294.000000)">
+                <line x1="-1.39794426e-13" y1="12.4121622" x2="18" y2="12.4121622" id="trait3"></line>
+                <line x1="-3.06550618e-14" y1="6.33108108" x2="18" y2="6.33108108" id="trait2"></line>
+                <line x1="-1.39794426e-13" y1="0.5" x2="18" y2="0.5" id="trait1"></line>
+            </g>
+        </g>
+    </g>
+</svg>

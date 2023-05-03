@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>croix copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Mobile-Burger-Menu" transform="translate(-14.000000, -292.000000)" stroke="#000000">
+            <g id="croix-copy" transform="translate(15.000000, 292.500000)">
+                <line x1="12.5" y1="0.5" x2="0" y2="12.5" id="diagonal-D"></line>
+                <line x1="0.5" y1="0" x2="12.5" y2="12.5" id="diagonal-G"></line>
+            </g>
+        </g>
+    </g>
+</svg>
