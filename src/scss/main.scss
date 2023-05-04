@@ -20,5 +20,11 @@
     url("../font/Switzer-Semibold.woff") format("woff");
   font-display: fallback;
 }
+@font-face {
+  font-family: "Switzer-Bold";
+  src: url("../font/Switzer-Bold.woff2") format("woff2"),
+    url("../font/Switzer-Bold.woff") format("woff");
+  font-display: fallback;
+}
 @import "modules/banner";
 @import "modules/article";
