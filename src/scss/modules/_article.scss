@@ -6,19 +6,22 @@ h2 {
   padding-top: 80px;
 }
 
-p {
+.text-size {
   font-family: Switzer-Semibold;
-  font-size: 25px;
-  line-height: 40px;
-  margin-right: 120px;
+  font-size: 16px;
+  line-height: 31px;
   margin-bottom: 50px;
+  // margin-right: 120px;
+  // margin-bottom: 50px;
 }
 
-// @media (max-width: 768px) {
-//   .p {
-//     font-size: 16px;
-//   }
-// }
+@media (min-width: 992px) {
+  .text-size {
+    font-size: 25px;
+    line-height: 40px;
+    margin-right: 125px;
+  }
+}
 
 .italic {
   font-family: Switzer-SemiboldItalic;
@@ -52,12 +55,17 @@ p {
 
 @media (max-width: 992px) {
   .article-image-half {
-    opacity: 50%;
-    max-width: auto;
-
-    display: block;
-    max-inline-size: 100%;
-    margin: auto;
-    opacity: 50;
+    width: 100vw;
+    margin-left: calc((100vw - 720px) / -2);
+  }
+}
+@media (max-width: 768px) {
+  .article-image-half {
+    margin-left: calc((100vw - 540px) / -2);
+  }
+}
+@media (max-width: 576px) {
+  .article-image-half {
+    margin-left: -12px;
   }
 }
