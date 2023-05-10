@@ -37,3 +37,27 @@ p {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+@media (max-width: 992px) {
+  .button-center {
+    text-align: center;
+  }
+}
+
+.article-image-half {
+  width: 50vw;
+  display: block;
+  max-inline-size: none;
+}
+
+@media (max-width: 992px) {
+  .article-image-half {
+    opacity: 50%;
+    max-width: auto;
+
+    display: block;
+    max-inline-size: 100%;
+    margin: auto;
+    opacity: 50;
+  }
+}
