@@ -10,12 +10,41 @@ h2 {
   font-family: Switzer-Semibold;
   font-size: 16px;
   line-height: 31px;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
   // margin-right: 120px;
   // margin-bottom: 50px;
 }
 
+@media (min-width: 576px) {
+  .text-size {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-size {
+    font-size: 18px;
+    line-height: 35px;
+  }
+}
+
 @media (min-width: 992px) {
+  .text-size {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-size {
+    font-size: 20px;
+    line-height: 32px;
+    margin-right: 125px;
+  }
+}
+
+@media (min-width: 1200px) {
   .text-size {
     font-size: 25px;
     line-height: 40px;
@@ -33,17 +62,28 @@ h2 {
   text-align: center;
   border: solid 1px;
   border-radius: 40px;
-  margin-top: 80px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   padding-left: 40px;
   padding-right: 40px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 992px) {
   .button-center {
     text-align: center;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .button-center {
+    margin-top: 50px;
   }
 }
 
@@ -51,6 +91,7 @@ h2 {
   width: 50vw;
   display: block;
   max-inline-size: none;
+  padding-top: 100px;
 }
 
 @media (max-width: 992px) {
