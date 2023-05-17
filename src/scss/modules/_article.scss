@@ -70,6 +70,11 @@ h2 {
   font-size: 15px;
 }
 
+.button-wrapper {
+  text-align: center;
+  padding-top: 60px;
+}
+
 a {
   text-decoration: none;
 }
@@ -109,4 +114,40 @@ a {
   .article-image-half {
     margin-left: -12px;
   }
+}
+
+.drink-card {
+  text-align: center;
+  font-family: Switzer-Semibold;
+  color: white;
+  position: relative;
+}
+
+.text {
+  font-size: 20px;
+  font-family: Switzer-Bold;
+  position: absolute;
+  bottom: 20;
+  left: 0;
+  right: 0;
+}
+.margin-text {
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+
+.italic {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.Product-card {
+  text-align: center;
+}
+
+p {
+  font-family: Switzer-semibold;
+}
+
+footer {
+  font-family: Switzer-Semibold;
 }
